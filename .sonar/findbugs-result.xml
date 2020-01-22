@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1563363818624" analysisTimestamp="1563367191775" release="">
+  <Project>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\src\main\java\com\example\javamavenjunithelloworld\Hello.java</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\src\main\java\com\example\javamavenjunithelloworld\HelloApp.java</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\src\test\java\com\example\javamavenjunithelloworld\HelloAppTest.java</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\src\test\java\com\example\javamavenjunithelloworld\HelloTest.java</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\src\test\java\com\example\javamavenjunithelloworld\HelloWithTestsIT.java</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\src\test\java\com\example\javamavenjunithelloworld\TestingSecurityManager.java</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\target\classes\com\example\javamavenjunithelloworld\Hello.class</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\target\classes\com\example\javamavenjunithelloworld\HelloApp.class</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\target\test-classes\com\example\javamavenjunithelloworld\HelloAppTest.class</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\target\test-classes\com\example\javamavenjunithelloworld\HelloTest.class</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\target\test-classes\com\example\javamavenjunithelloworld\HelloWithTestsIT.class</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\target\test-classes\com\example\javamavenjunithelloworld\TestingSecurityManager$TestExitException.class</Jar>
+    <Jar>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\target\test-classes\com\example\javamavenjunithelloworld\TestingSecurityManager.class</Jar>
+    <AuxClasspathEntry>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\target</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\.sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\.sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>D:\Projects\java-maven-junit-helloworld-master\java-maven-junit-helloworld-master\.sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="3">
+    <MissingClass>org.hamcrest.CoreMatchers</MissingClass>
+    <MissingClass>org.hamcrest.MatcherAssert</MissingClass>
+    <MissingClass>org.junit.jupiter.api.Assertions</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Wed, 17 Jul 2019 17:13:38 +0530" total_classes="7" referenced_classes="72" total_bugs="0" total_size="152" num_packages="1" java_version="1.8.0_161" vm_version="25.161-b12" cpu_seconds="9.94" clock_seconds="5.17" peak_mbytes="300.88" alloc_mbytes="1764.00" gc_seconds="0.32">
+    <FileStats path="com/example/javamavenjunithelloworld/Hello.java" bugCount="0" size="17"/>
+    <FileStats path="com/example/javamavenjunithelloworld/HelloApp.java" bugCount="0" size="26"/>
+    <FileStats path="com/example/javamavenjunithelloworld/HelloAppTest.java" bugCount="0" size="38"/>
+    <FileStats path="com/example/javamavenjunithelloworld/HelloTest.java" bugCount="0" size="29"/>
+    <FileStats path="com/example/javamavenjunithelloworld/HelloWithTestsIT.java" bugCount="0" size="24"/>
+    <FileStats path="com/example/javamavenjunithelloworld/TestingSecurityManager.java" bugCount="0" size="18"/>
+    <PackageStats package="com.example.javamavenjunithelloworld" total_bugs="0" total_types="7" total_size="152">
+      <ClassStats class="com.example.javamavenjunithelloworld.Hello" sourceFile="Hello.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.example.javamavenjunithelloworld.HelloApp" sourceFile="HelloApp.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.example.javamavenjunithelloworld.HelloAppTest" sourceFile="HelloAppTest.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="com.example.javamavenjunithelloworld.HelloTest" sourceFile="HelloTest.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.example.javamavenjunithelloworld.HelloWithTestsIT" sourceFile="HelloWithTestsIT.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="com.example.javamavenjunithelloworld.TestingSecurityManager" sourceFile="TestingSecurityManager.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.example.javamavenjunithelloworld.TestingSecurityManager$TestExitException" sourceFile="TestingSecurityManager.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="535" invocations="607" avgMicrosecondsPerInvocation="882" maxMicrosecondsPerInvocation="41247" standardDeviationMircosecondsPerInvocation="2693"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="333" invocations="72" avgMicrosecondsPerInvocation="4625" maxMicrosecondsPerInvocation="294152" standardDeviationMircosecondsPerInvocation="34379"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="296" invocations="611" avgMicrosecondsPerInvocation="485" maxMicrosecondsPerInvocation="4037" standardDeviationMircosecondsPerInvocation="325"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="247" invocations="7" avgMicrosecondsPerInvocation="35390" maxMicrosecondsPerInvocation="141751" standardDeviationMircosecondsPerInvocation="56476"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="171" invocations="72" avgMicrosecondsPerInvocation="2384" maxMicrosecondsPerInvocation="27968" standardDeviationMircosecondsPerInvocation="4427"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="167" invocations="234" avgMicrosecondsPerInvocation="715" maxMicrosecondsPerInvocation="41998" standardDeviationMircosecondsPerInvocation="2851"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="150" invocations="72" avgMicrosecondsPerInvocation="2089" maxMicrosecondsPerInvocation="24002" standardDeviationMircosecondsPerInvocation="3822"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="122" invocations="32" avgMicrosecondsPerInvocation="3838" maxMicrosecondsPerInvocation="105014" standardDeviationMircosecondsPerInvocation="18201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FormatStringChecker" totalMilliseconds="93" invocations="7" avgMicrosecondsPerInvocation="13398" maxMicrosecondsPerInvocation="43797" standardDeviationMircosecondsPerInvocation="17616"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="91" invocations="118" avgMicrosecondsPerInvocation="778" maxMicrosecondsPerInvocation="31425" standardDeviationMircosecondsPerInvocation="3056"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="91" invocations="554" avgMicrosecondsPerInvocation="165" maxMicrosecondsPerInvocation="7365" standardDeviationMircosecondsPerInvocation="454"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="85" invocations="33" avgMicrosecondsPerInvocation="2579" maxMicrosecondsPerInvocation="22484" standardDeviationMircosecondsPerInvocation="5139"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="81" invocations="7" avgMicrosecondsPerInvocation="11613" maxMicrosecondsPerInvocation="44408" standardDeviationMircosecondsPerInvocation="15948"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="72" invocations="72" avgMicrosecondsPerInvocation="1004" maxMicrosecondsPerInvocation="23781" standardDeviationMircosecondsPerInvocation="2914"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="67" invocations="72" avgMicrosecondsPerInvocation="932" maxMicrosecondsPerInvocation="33416" standardDeviationMircosecondsPerInvocation="3955"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="65" invocations="32" avgMicrosecondsPerInvocation="2036" maxMicrosecondsPerInvocation="13992" standardDeviationMircosecondsPerInvocation="3201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="59" invocations="33" avgMicrosecondsPerInvocation="1811" maxMicrosecondsPerInvocation="15313" standardDeviationMircosecondsPerInvocation="2883"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="56" invocations="32" avgMicrosecondsPerInvocation="1768" maxMicrosecondsPerInvocation="11682" standardDeviationMircosecondsPerInvocation="2592"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetector" totalMilliseconds="55" invocations="7" avgMicrosecondsPerInvocation="7920" maxMicrosecondsPerInvocation="53452" standardDeviationMircosecondsPerInvocation="18589"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="54" invocations="32" avgMicrosecondsPerInvocation="1702" maxMicrosecondsPerInvocation="19298" standardDeviationMircosecondsPerInvocation="3387"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="54" invocations="32" avgMicrosecondsPerInvocation="1701" maxMicrosecondsPerInvocation="19959" standardDeviationMircosecondsPerInvocation="3649"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="52" invocations="72" avgMicrosecondsPerInvocation="730" maxMicrosecondsPerInvocation="17128" standardDeviationMircosecondsPerInvocation="2272"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="49" invocations="7" avgMicrosecondsPerInvocation="7033" maxMicrosecondsPerInvocation="30630" standardDeviationMircosecondsPerInvocation="10034"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="48" invocations="72" avgMicrosecondsPerInvocation="668" maxMicrosecondsPerInvocation="7140" standardDeviationMircosecondsPerInvocation="1462"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

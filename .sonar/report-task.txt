@@ -1,0 +1,5 @@
+projectKey=ALM_Test_PDF_ReportGen:master
+serverUrl=https://sonar.cybage.com
+dashboardUrl=https://sonar.cybage.com/dashboard/index/ALM_Test_PDF_ReportGen:master
+ceTaskId=AWv_8kysKV-DCxeoQ9eN
+ceTaskUrl=https://sonar.cybage.com/api/ce/task?id=AWv_8kysKV-DCxeoQ9eN
