@@ -1,0 +1,54 @@
+# Created at 2020-01-16T20:27:39.368
+java.lang.reflect.InvocationTargetException
+
+# Created at 2020-01-16T20:27:39.370
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-01-16T20:27:39.373
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-01-16T20:27:39.374
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-01-16T20:27:39.376
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+# Created at 2020-01-16T20:27:39.377
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+
+# Created at 2020-01-16T20:27:39.379
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+# Created at 2020-01-16T20:27:39.380
+Caused by: java.lang.RuntimeException: Class java/lang/UnknownError could not be instrumented.
+
+# Created at 2020-01-16T20:27:39.382
+	at org.jacoco.agent.rt.internal_c13123e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:140)
+
+# Created at 2020-01-16T20:27:39.384
+	at org.jacoco.agent.rt.internal_c13123e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:101)
+
+# Created at 2020-01-16T20:27:39.385
+	at org.jacoco.agent.rt.internal_c13123e.PreMain.createRuntime(PreMain.java:55)
+
+# Created at 2020-01-16T20:27:39.386
+	at org.jacoco.agent.rt.internal_c13123e.PreMain.premain(PreMain.java:47)
+
+# Created at 2020-01-16T20:27:39.388
+	... 6 more
+
+# Created at 2020-01-16T20:27:39.389
+Caused by: java.lang.NoSuchFieldException: $jacocoAccess
+
+# Created at 2020-01-16T20:27:39.390
+	at java.base/java.lang.Class.getField(Class.java:1999)
+
+# Created at 2020-01-16T20:27:39.391
+	at org.jacoco.agent.rt.internal_c13123e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:138)
+
+# Created at 2020-01-16T20:27:39.392
+	... 9 more
+
+# Created at 2020-01-16T20:27:39.407
+Exception in thread "main" 
+
